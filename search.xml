@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Untitled]]></title>
+    <url>%2F2019%2F03%2F24%2Fntitled%2F</url>
+    <content type="text"><![CDATA[HEXO部署]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello Python]]></title>
     <url>%2F2019%2F03%2F23%2Fllo-Python%2F</url>
     <content type="text"><![CDATA[Python （计算机程序设计语言）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python是一种计算机程序设计语言。是一种动态的、面向对象的脚本语言，最初被设计用于编写自动化脚本(shell)，随着版本的不断更新和语言新功能的添加，越来越多被用于独立的、大型项目的开发。 Python可以用来做什么呢?12345678Web 和 Internet开发科学计算和统计教育桌面界面开发软件开发后端开发爬虫大数据 Python基础语法 注释 &nbsp;&nbsp;&nbsp; # 标注的文本 数字 分为整数(不区分long和int),浮点数,复数 字符串 使用单引号或者双引号括起来的叫做字符串.在python中对字符串和数字的使用有着严格的要求 转义字符 \\ \t \r \n \&#39; \&#39;&#39; 标识符 用一个名字来代指一个数值.只能是字母数字,下划线,中文(不推荐使用,可以用拼音代替).并且只能以字母或者下划线开头(在Python中下划线开头有特殊意义),不能是Python的关键字,大小写敏感 常量 一旦赋值便不可改变值的标识符,在Python中并无法创建常量 变量 赋值后,可以被改变的标识符 字面常量 一个单独的量 比如: a=10Python的语言类型Python是动态语言,强类型语言 动态编译语言:不需要事先声明类型,可以随时赋值为其它类型 缺点,编译时很难判断什么类型不同类型之间的操作,必须先强制转换成同一类型. 运算符 算术运算符 简单的 + - * / 和 整除// 取余% 多少次方** 位运算符 &amp; | ~ ^ &lt;&lt; &gt;&gt; 比较运算符 == != &gt; &lt; &gt;= &lt;= 逻辑运算符 与或非 运算符优先级算术运算符&gt;位运算符&gt;身份运算符&gt;成员运算符&gt;逻辑运算符真值表确定一个表达式是否为真或有效,用于逻辑判断.是布尔值(bool) 对象/常量 值 “ “ 假 “string” 真 0 假 &#60;=1 真 &#62;=-1 真 () 假 [] 假 {} 假 None 假 []123print("Hello Python");for i in range(199): print('Hello Python');]]></content>
