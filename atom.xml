@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-03-24T11:05:24.212Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://localhost/"/>
+  <updated>2019-03-30T12:47:15.726Z</updated>
+  <id>http://localhost/</id>
   
   <author>
     <name>田亮</name>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Untitled</title>
-    <link href="http://yoursite.com/2019/03/24/ntitled/"/>
-    <id>http://yoursite.com/2019/03/24/ntitled/</id>
-    <published>2019-03-24T11:05:05.000Z</published>
-    <updated>2019-03-24T11:05:24.212Z</updated>
+    <title>python基本数据类型</title>
+    <link href="http://localhost/posts/50c1.html"/>
+    <id>http://localhost/posts/50c1.html</id>
+    <published>2019-03-30T12:41:00.000Z</published>
+    <updated>2019-03-30T12:47:15.726Z</updated>
     
     <summary type="html">
     
@@ -29,20 +29,142 @@
       
         
         
-          &lt;p&gt;HEXO部署&lt;/p&gt;
-
+          &lt;p&gt; 在python中,变量不需要声明,每个变量在使用前必须赋值.变量赋值以后该变量才会被创建&lt;br&gt;
         
       
     
     </summary>
     
+      <category term="python" scheme="http://localhost/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://localhost/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python基础</title>
+    <link href="http://localhost/posts/396e.html"/>
+    <id>http://localhost/posts/396e.html</id>
+    <published>2019-03-27T13:56:00.000Z</published>
+    <updated>2019-03-30T12:39:40.742Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Python-标识符&quot;&gt;&lt;a href=&quot;#Python-标识符&quot; class=&quot;headerlink&quot; title=&quot;Python 标识符&quot;&gt;&lt;/a&gt;Python 标识符&lt;/h1&gt;&lt;p&gt;在python中,标识符由字母,数字,下划线组成.所有的标识符都可以使用这些.但是不能以数字开头.使用下划线(_)开头有其他意义,对大小写敏感.(及不建议使用中文创建变量,函数等,毕竟是外国的东西嘛)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以下划线开头的标识符是有特殊意义的。以单下划线开头（_foo）的代表不能直接访问的类属性，需通过类提供的接口进行访问，不能用“from xxx import *”而导入；以双下划线开头的（&lt;strong&gt;foo）代表类的私有成员；以双下划线开头和结尾的（&lt;/strong&gt;foo__）代表python里特殊方法专用的标识，如&lt;strong&gt;init&lt;/strong&gt;（）代表类的构造函数。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Python保留字符&quot;&gt;&lt;a href=&quot;#Python保留字符&quot; class=&quot;headerlink&quot; title=&quot;Python保留字符&quot;&gt;&lt;/a&gt;Python保留字符&lt;/h1&gt;&lt;p&gt;所有计算机语言都有保留字符,这些保留字符不能用做变量名,常数和任何其它标识符名称&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;保留字&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;保留字&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;th style=&quot;text-align:center&quot;&gt;保留字&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;and&lt;/td&gt;
+&lt;td&gt;用于表达式运算,逻辑与操作&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;exec&lt;/td&gt;
+&lt;td&gt;用于执行python语句&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;not&lt;/td&gt;
+&lt;td&gt;用于表达式逻辑或操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;or&lt;/td&gt;
+&lt;td&gt;用于表达式运算,逻辑或操作&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;finally&lt;/td&gt;
+&lt;td&gt;用于异常语句,出现异常后执行,同except和try一同使用&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;assert&lt;/td&gt;
+&lt;td&gt;用于判断变量或条件表达式的值是否为真&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;break&lt;/td&gt;
+&lt;td&gt;中断循环语句的执行&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;for&lt;/td&gt;
+&lt;td&gt;for循环语句&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;pass&lt;/td&gt;
+&lt;td&gt;占位符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;print&lt;/td&gt;
+&lt;td&gt;打印语句&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;from&lt;/td&gt;
+&lt;td&gt;用于导入模块,和import一同使用&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;class&lt;/td&gt;
+&lt;td&gt;用于定义类&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;continue&lt;/td&gt;
+&lt;td&gt;跳出这次循环,继续执行下一次循环&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;global&lt;/td&gt;
+&lt;td&gt;定义全局变量&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;raise&lt;/td&gt;
+&lt;td&gt;异常抛出操作&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;return&lt;/td&gt;
+&lt;td&gt;从函数返回结果&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;if&lt;/td&gt;
+&lt;td&gt;条件语句,同else,elif结合使用&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;del&lt;/td&gt;
+&lt;td&gt;删除变量或序列的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;def&lt;/td&gt;
+&lt;td&gt;用于定义函数或方法&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;import&lt;/td&gt;
+&lt;td&gt;用于导入模块,与from结合使用&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;try&lt;/td&gt;
+&lt;td&gt;包含可能出现的异常语句,同except和finally一同使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;while&lt;/td&gt;
+&lt;td&gt;while循环语句&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;in&lt;/td&gt;
+&lt;td&gt;判断变量是否在序列中&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;elif&lt;/td&gt;
+&lt;td&gt;条件语句,和if一同使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;else&lt;/td&gt;
+&lt;td&gt;条件语句,和if一同使用&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;is&lt;/td&gt;
+&lt;td&gt;判断变量是否为某个类的实例&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;with&lt;/td&gt;
+&lt;td&gt;简化python语句&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;yield&lt;/td&gt;
+&lt;td&gt;用于从函数依次返回值&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;lambda&lt;/td&gt;
+&lt;td&gt;定义佚名函数&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;except&lt;/td&gt;
+&lt;td&gt;包含可能出现的异常语句..同try和finally使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;figcaption&gt;&lt;span&gt;输出当前python版本所有保留字符&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; keyword&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;print(keyword.kwlist)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://localhost/categories/python/"/>
+    
+    
+      <category term="python" scheme="http://localhost/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Hello Python</title>
-    <link href="http://yoursite.com/2019/03/23/llo-Python/"/>
-    <id>http://yoursite.com/2019/03/23/llo-Python/</id>
+    <link href="http://localhost/posts/aef1.html"/>
+    <id>http://localhost/posts/aef1.html</id>
     <published>2019-03-23T13:56:00.000Z</published>
     <updated>2019-03-23T15:57:34.716Z</updated>
     
@@ -53,26 +175,23 @@
     
     </summary>
     
-      <category term="python" scheme="http://yoursite.com/categories/python/"/>
+      <category term="python" scheme="http://localhost/categories/python/"/>
     
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="http://localhost/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>7月份是走是留?</title>
-    <link href="http://yoursite.com/2019/03/21/%E6%9C%88%E4%BB%BD%E6%98%AF%E8%B5%B0%E6%98%AF%E7%95%99/"/>
-    <id>http://yoursite.com/2019/03/21/月份是走是留/</id>
-    <published>2019-03-21T14:02:16.000Z</published>
-    <updated>2019-03-24T05:54:10.731Z</updated>
+    <link href="http://localhost/posts/6a6a.html"/>
+    <id>http://localhost/posts/6a6a.html</id>
+    <published>2019-03-21T14:02:00.000Z</published>
+    <updated>2019-03-26T15:06:42.431Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;今年的大致规划&quot;&gt;&lt;a href=&quot;#今年的大致规划&quot; class=&quot;headerlink&quot; title=&quot;今年的大致规划&quot;&gt;&lt;/a&gt;今年的大致规划&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;找到一份顺心的工作&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;攒够学费,共计:4400人民币&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;孝敬一下父母亲&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;然后通过挺长一段时间的面试,最后找到了这份工作(打印机维修)&lt;br&gt;虽然,我并不排斥这份工作.但,和我所理想的工作差的太远了&lt;br&gt;所以,我在原有的基础上修改了一下我的规划&lt;/strong&gt;&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;学习相关知识,python,sql或者其它,多掌握一点知识&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;工作到7月份把学费攒够后辞职去找另一份工作.如果工资给的可以或者觉得顺心就留下&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;攒够学费,共计:4400RMB&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h4 id=&quot;按照以前的规划-是到7月份拿过毕业证走人的-正好-房子也到期了&quot;&gt;&lt;a href=&quot;#按照以前的规划-是到7月份拿过毕业证走人的-正好-房子也到期了&quot; class=&quot;headerlink&quot; title=&quot;按照以前的规划,是到7月份拿过毕业证走人的.正好,房子也到期了&quot;&gt;&lt;/a&gt;按照以前的规划,是到7月份拿过毕业证走人的.正好,房子也到期了&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;http://photocdn.sohu.com/20151228/mp50834271_1451236059550_2_th.jpeg&quot;&gt;&lt;/p&gt;
-&lt;h1 id=&quot;走-还是留呢&quot;&gt;&lt;a href=&quot;#走-还是留呢&quot; class=&quot;headerlink&quot; title=&quot;走?还是留呢??&quot;&gt;&lt;/a&gt;走?还是留呢??&lt;/h1&gt;
+      这篇博文需要密码查看
     
     </summary>
     
@@ -81,15 +200,15 @@
   
   <entry>
     <title>自律</title>
-    <link href="http://yoursite.com/2019/03/18/titled/"/>
-    <id>http://yoursite.com/2019/03/18/titled/</id>
+    <link href="http://localhost/posts/dea2.html"/>
+    <id>http://localhost/posts/dea2.html</id>
     <published>2019-03-18T14:06:29.000Z</published>
     <updated>2019-03-24T05:25:15.854Z</updated>
     
     <summary type="html">
     
       &lt;h1 id=&quot;这是从-2019年3月18日-开始执行，一直到7月份拿毕业证为止&quot;&gt;&lt;a href=&quot;#这是从-2019年3月18日-开始执行，一直到7月份拿毕业证为止&quot; class=&quot;headerlink&quot; title=&quot;这是从 2019年3月18日 开始执行，一直到7月份拿毕业证为止&quot;&gt;&lt;/a&gt;&lt;strong&gt;这是从&lt;font color=&quot;＃b0ffd0&quot; size=&quot;22&quot;&gt; 2019年3月18日&lt;/font&gt; 开始执行，一直到7月份拿毕业证为止&lt;/strong&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#9AC0CD&quot; size=&quot;5&quot;&gt;莫等闲，白了少年头，空悲切——宋.岳飞《满江红》&lt;/font&gt;&lt;/p&gt;
-&lt;ol&gt;&lt;br&gt;  &lt;strong&gt;&lt;li&gt;每周给家人打一通电话,不少于3分钟&lt;/li&gt;&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;li&gt;每2个月回家一次.即:到7月份要回家2次&lt;/li&gt;&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;li&gt;攒够学费 学费共计￥4400&lt;/li&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://localhost:2333/img/xuefei.png&quot; alt=&quot;天价学费&quot;&gt;&lt;br&gt;&lt;/ol&gt;
+&lt;ol&gt;&lt;br&gt;  &lt;strong&gt;&lt;li&gt;每周给家人打一通电话,不少于3分钟&lt;/li&gt;&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;li&gt;每2个月回家一次.即:到7月份要回家2次&lt;/li&gt;&lt;/strong&gt;&lt;br&gt;  &lt;strong&gt;&lt;li&gt;攒够学费 学费共计￥4400&lt;/li&gt;&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;http://localhost:2333/img/xuefei.png&quot; alt=&quot;天价学费&quot;&gt;&lt;br&gt;
     
     </summary>
     
@@ -98,10 +217,10 @@
   
   <entry>
     <title>格式大全</title>
-    <link href="http://yoursite.com/2019/03/15/hello-world/"/>
-    <id>http://yoursite.com/2019/03/15/hello-world/</id>
+    <link href="http://localhost/posts/e0fa.html"/>
+    <id>http://localhost/posts/e0fa.html</id>
     <published>2019-03-15T12:27:00.000Z</published>
-    <updated>2019-03-23T16:25:09.198Z</updated>
+    <updated>2019-03-25T14:35:42.136Z</updated>
     
     <summary type="html">
     
@@ -109,10 +228,10 @@
     
     </summary>
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+      <category term="hexo" scheme="http://localhost/categories/hexo/"/>
     
     
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+      <category term="hexo" scheme="http://localhost/tags/hexo/"/>
     
   </entry>
   
